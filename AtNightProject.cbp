@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AtNightProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AtNightProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AtNightProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="MapView">
+				<Option output="bin/MapView/AtNightProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/MapView/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="mapView.cpp">
+			<Option target="MapView" />
+		</Unit>
+		<Unit filename="src/core/common/MathUtilities.h" />
+		<Unit filename="src/core/common/StringLinker.h" />
+		<Unit filename="src/core/common/Timer.h" />
+		<Unit filename="src/core/common/TimerFactory.h" />
+		<Unit filename="src/core/common/Vectors.h" />
+		<Unit filename="src/core/restorable/AbstractRestorableOperation.h" />
+		<Unit filename="src/core/restorable/Container.h" />
+		<Unit filename="src/core/restorable/Restorable.h" />
+		<Unit filename="src/core/restorable/RestorableBuilder.h" />
+		<Unit filename="src/core/restorable/SaginaException.h" />
+		<Unit filename="src/core/restorable/SaginaObject.h" />
+		<Unit filename="src/core/restorable/SaginaSerializationException.h" />
+		<Unit filename="src/core/restorable/stream/AbstractSerializationInputStream.h" />
+		<Unit filename="src/core/restorable/stream/AbstractSerializationOutputStream.h" />
+		<Unit filename="src/core/restorable/stream/ByteBuffer.h" />
+		<Unit filename="src/core/restorable/stream/FileSerializationInputStream.h" />
+		<Unit filename="src/core/restorable/stream/FileSerializationOutputStream.h" />
+		<Unit filename="src/core/restorable/stream/MemorySerializationInputStream.h" />
+		<Unit filename="src/core/restorable/stream/MemorySerializationOutputStream.h" />
+		<Unit filename="src/display/AbstractDisplay.h" />
+		<Unit filename="src/display/component/AbstractComponent2D.h" />
+		<Unit filename="src/display/glew/FrameUnit.h" />
+		<Unit filename="src/display/hud/AbstractComponent.h" />
+		<Unit filename="src/display/hud/Button.h" />
+		<Unit filename="src/display/hud/Form.h" />
+		<Unit filename="src/display/hud/Hud.h" />
+		<Unit filename="src/display/hud/Text.h" />
+		<Unit filename="src/display/model/BlockModel.h" />
+		<Unit filename="src/display/model/BlockObject.h" />
+		<Unit filename="src/display/model/CollisionPoints.h" />
+		<Unit filename="src/display/model/ModelData.h" />
+		<Unit filename="src/display/texture/Texture.h" />
+		<Unit filename="src/display/texture/TextureHolder.h" />
+		<Unit filename="src/display/utils/Camera.h" />
+		<Unit filename="src/display/utils/Keys.h" />
+		<Unit filename="src/display/utils/SDLLink.h" />
+		<Unit filename="src/display/utils/Settings.h" />
+		<Unit filename="src/perspective/Level.h" />
+		<Unit filename="src/perspective/Menu.h" />
+		<Unit filename="src/perspective/Perspective.h" />
+		<Unit filename="src/world/Chunk.h" />
+		<Unit filename="src/world/Interactive.h" />
+		<Unit filename="src/world/Map.h" />
+		<Unit filename="src/world/Physics.h" />
+		<Unit filename="src/world/TextureSet.h" />
+		<Unit filename="src/world/World.h" />
+		<Unit filename="src/world/compatible/AbstractMapLoader.h" />
+		<Unit filename="src/world/compatible/BioCoraMapLoader.h" />
+		<Unit filename="src/world/drawing/CubeDrawer.h" />
+		<Unit filename="src/world/object/Entity.h" />
+		<Unit filename="src/world/object/EntityInterface.h" />
+		<Unit filename="src/world/object/EntityVarDef.h" />
+		<Unit filename="src/world/object/Inventory.h" />
+		<Unit filename="src/world/weapon/Ammo.h" />
+		<Unit filename="src/world/weapon/AmmoType.h" />
+		<Unit filename="src/world/weapon/Weapon.h" />
+		<Unit filename="src/world/weapon/WeaponType.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
